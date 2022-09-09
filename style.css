@@ -50,7 +50,7 @@ main {
 .left {
     width: 80%;
     background: #171717;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .left .sons {
@@ -65,10 +65,10 @@ main {
 
 /* =============== DESIGN DOS AUDIOS =============== */
 
-img {
+/* img {
     width: 125px;
     height: 120px;
-}
+} */
 
 .box__som {
     display: flex;
