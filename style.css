@@ -1,0 +1,99 @@
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/AquireBold-8Ma60.otf);
+}
+
+h1 {
+    font-family: myFont;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* =============== HEADER =============== */
+
+.nav-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+    background: #000000;
+}
+
+.nav-home .logo-icon {
+    font-size: 32px;
+}
+
+/* =============== MAIN =============== */
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* =============== AUDIO DISPLAY =============== */
+
+.left {
+    width: 80%;
+    background: #171717;
+    overflow-y: scroll;
+}
+
+.left .sons {
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+
+    gap: 20px;
+    cursor: pointer;
+}
+
+/* =============== DESIGN DOS AUDIOS =============== */
+
+img {
+    width: 125px;
+    height: 120px;
+}
+
+.box__som {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box__som .box__som-icon {
+    font-size: 60px;
+    padding: 30px 40px;
+    background: #ECECEC;
+    color: black;
+}
+
+.box__som .nome-audio {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    color: #ECECEC;
+}
+
+/* =============== TOOLS =============== */
+
+.right {
+    width: 20%;
+    background: #2B2B2B;
+}
