@@ -29,11 +29,23 @@
             </ul>
         </div>
         <div class="right">
+            <label for="input-nome" class="label-right">Nome do arquivo:</label>
+            <input type="text" placeholder="Nome do Arquivo" class="input-text" id="input-nome">
+
+            <label for="file" class="label-file"><i class="fa-solid fa-upload"></i>Selecione o arquivo...</label>
+            <input type="file" class="input-file" id="file">
+
+            <input type="submit" class="input-submit" value="Adicionar"></input>
+
+            <div class="creditos">
+                Made with <span><i class="fa-solid fa-heart"></i> by <a href="https://github.com/INeonysI">Gabriel
+                        Ayres</a></span>
+            </div>
         </div>
     </main>
 
 
-    <span>
+    <div class="audiosDiv">
         <audio src="sounds/ahuurr-ah-bhruah.mp3" data-nome="Abrluabrlua"></audio>
         <audio src="sounds/ai.mp3" data-nome="Ai"></audio>
         <audio src="sounds/atumalaca.mp3" data-nome="Atumalaca"></audio>
@@ -57,9 +69,11 @@
         <audio src="sounds/uiii.mp3" data-nome="Uiii"></audio>
         <audio src="sounds/vai-dar-namoro.mp3" data-nome="Vai dar namoro"></audio>
         <audio src="sounds/xiiiiii.mp3" data-nome="Xiiii"></audio>
-    </span>
 
-    <script src="index.js"></script>
+    </div>
+
+    <script src="js/card.js"></script>
+    <script src="js/addSound.js"></script>
 </body>
 
 </html>
