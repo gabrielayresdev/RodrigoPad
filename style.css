@@ -14,6 +14,7 @@ h1 {
     outline: none;
     list-style: none;
     text-decoration: none;
+    border: none;
 }
 
 body {
@@ -53,6 +54,7 @@ main {
     width: 80%;
     background: #171717;
     overflow-y: hidden;
+    position: relative;
 }
 
 .left .sons {
@@ -93,6 +95,49 @@ img {
     color: #ECECEC;
 }
 
+.invisivel {
+    display: none;
+}
+
+/* =============== BUSCA =============== */
+
+.busca {
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    gap: 20px;
+}
+
+.icone-busca {
+    padding: 12px;
+    font-size: 24px;
+    color: white;
+    border-radius: 8px;
+    background: #00fff6;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.ativo {
+    left: 0 !important;
+}
+
+
+.busca-input {
+    width: 30vw;
+    border-radius: 17px;
+
+    padding: 5px;
+    position: relative;
+    z-index: 3;
+    left: 100vw;
+
+    font-size: 16px;
+
+    transition: .5s;
+}
+
 /* =============== TOOLS =============== */
 
 .right {
@@ -130,7 +175,7 @@ img {
 }
 
 .label-file {
-    background: rgb(241, 34, 34);
+    background: #f12222;
     border-radius: 3px;
     padding: 8px;
     margin-left: 2px;
@@ -148,7 +193,7 @@ img {
 
 
 .input-submit {
-    background: rgb(0, 255, 246);
+    background: #00fff6;
     border-radius: 8px;
     padding: 8px;
 
