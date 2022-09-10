@@ -24,13 +24,22 @@
         </nav>
     </header>
     <main>
+        <!-- =============== AUDIO DISPLAY =============== -->
         <div class="left">
             <ul class="sons">
             </ul>
+
+            <!-- =============== BUSCA =============== -->
+            <div class="busca">
+                <i class="fa-solid fa-magnifying-glass icone-busca"></i>
+                <input type="text" class="busca-input" placeholder="Uepa...">
+            </div>
         </div>
+
+        <!-- =============== TOOLS =============== -->
         <div class="right">
             <label for="input-nome" class="label-right">Nome do arquivo:</label>
-            <input type="text" placeholder="Nome do Arquivo" class="input-text" id="input-nome">
+            <input type="text" placeholder="Cavalo..." class="input-text" id="input-nome">
 
             <label for="file" class="label-file"><i class="fa-solid fa-upload"></i>Selecione o arquivo...</label>
             <input type="file" class="input-file" id="file">
@@ -69,11 +78,11 @@
         <audio src="sounds/uiii.mp3" data-nome="Uiii"></audio>
         <audio src="sounds/vai-dar-namoro.mp3" data-nome="Vai dar namoro"></audio>
         <audio src="sounds/xiiiiii.mp3" data-nome="Xiiii"></audio>
-
     </div>
 
     <script src="js/card.js"></script>
     <script src="js/addSound.js"></script>
+    <script src="js/search.js"></script>
 </body>
 
 </html>
